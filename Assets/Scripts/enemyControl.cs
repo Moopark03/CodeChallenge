@@ -6,9 +6,8 @@ using UnityEngine.AI;
 public class enemyControl : MonoBehaviour
 {
     [SerializeField] GameObject tower;
-
     private NavMeshAgent agent;
-    // Start is called before the first frame update
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>(); //Enemy is the navmesh agent in order to dynamically find a way to the tower

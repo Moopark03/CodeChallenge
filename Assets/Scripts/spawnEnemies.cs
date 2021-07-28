@@ -14,7 +14,6 @@ public class spawnEnemies : MonoBehaviour
         position = transform.position; //sets initial position of the enemy at the spawn blocks
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Time.time > spawn_timer)

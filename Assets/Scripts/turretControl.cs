@@ -5,7 +5,7 @@ using UnityEngine;
 public class turretControl : MonoBehaviour
 {
     public float movementSpeed;
-    // Start is called before the first frame update
+
     void Start()
     {
         movementSpeed = 800f;
